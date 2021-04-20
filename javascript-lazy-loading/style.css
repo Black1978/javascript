@@ -1,0 +1,112 @@
+/*Zeroing*/
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+html, body {
+	height: 100%;
+	line-height: 1;
+	font-size: 14;
+	background-color: #333;
+	color: #fff;
+	font-family: Arial, "Helvetica Neue", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: inherit;
+}
+img {
+	vertical-align: top;
+}
+a {
+	text-decoration: none;
+}
+ul, ol, li {
+	list-style: none;
+}
+/*-----------------------------------------------------------*/
+.wrapper {
+	min-height: 100%;
+}
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.page {
+	padding: 100px 0;
+}
+.page-section {
+	padding: 30px;
+	
+}
+.paragraph-section {
+	background-color: chartreuse;
+}
+.photo-section {
+	background-color: #777;
+}
+.map-section {
+	background-color: #111fff;
+}
+.page-title {
+	font-size: 30px;
+	margin: 0px 0px 30px 0px;
+}
+.page-subtitle {
+	font-size: 30px;
+	margin: 0px 0px 30px 0px;
+}
+.page-text {
+	font-style: 16px;
+	line-height: 150%;
+}
+.page-text p {
+	margin: 0px 0px 15px 0px;
+}
+.page-text *:last-child {
+	margin-bottom: 0;
+}
+.page-images {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	gap: 10px;
+}
+.page-image {
+	position: relative;
+	padding: 0px 0px 100% 0px;
+	background: url('img/loading.gif') center / 50px no-repeat;
+}
+.page-image img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.page-map {
+	position: relative;
+	padding: 0px 0px 50% 0px;
+	background: url('img/loading.gif') center / 50px no-repeat;
+
+}
+.page-map iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.loading-icon {
+	background: url('img/loading.gif') center / 50px no-repeat;
+	height: 50px;
+}
