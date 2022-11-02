@@ -1,2 +1,2 @@
-# Javascript.
-javascript programs
+# Javascript
+Javascript programs.
