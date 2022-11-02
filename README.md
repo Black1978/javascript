@@ -1,2 +1,2 @@
-# javascript
+# Javascript.
 javascript programs
